@@ -93,3 +93,22 @@ input:focus-visible {
     min-width: 1.25rem;
 
 }
+.submit-button{
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #37af65;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+option:disabled{
+  color: rgb(170, 170, 170);
+}
+button:active{
+  border-style: none;
+}
+select:focus-visible{
+  outline: auto rgb(87, 87, 230) 1px;
+}
